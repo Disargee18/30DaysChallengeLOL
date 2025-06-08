@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    color:whitesmoke;
+    margin: 0;
+    height: 810px;
+}
+
+/* body p{
+    margin: 0;
+} */
+
+.titlebar{
+    background-color: rgb(9, 9, 74);
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+.titlebar h1{
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 30px;
+    text-shadow: -10px 8px 3px rgb(92, 92, 153);
+    font-size: 30px;
+
+}
+
+.yapping{
+    /* display: inline-block; */
+    height: 100px;
+    padding: 15px;
+    margin: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    /* background-color: blueviolet; */
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: justify,center;
+    text-justify:inter-word;
+}
+
+.p2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.space{
+    width: 100px;
+    padding-right: 990px;
+}
+
+.box-containers{
+    margin: 10px;
+    height: 500px;
+    border-style: solid;
+    display: block;
+    position: relative;
+}
+
+.box-containers div{
+    height: 300px;
+    width: 300px;
+    /* border-style: dashed; */
+    display: inline-block;
+    margin-top:90px;
+    margin-bottom: 100px;
+    margin-left: 130px;
+    padding: 10px;
+}
+
+.box1{
+    background-color: rgb(10, 31, 137);
+    position: relative;
+    display: inline-block;
+    font-size: 17.5px;
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+.box2{
+    background-color: rgb(39, 5, 107);
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-align: justify;
+}
+
+.box3{
+    background-color: rgb(84, 8, 9);
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-align: justify;
+}
+
+.box-containers div:hover{
+    height: 310px;
+    width: 310px;
+    /* border-style: dashed; */
+    display: inline-block;
+    margin-top:90px;
+    margin-bottom: 100px;
+    margin-left: 130px;
+    padding: 10px;
+    background-color: gray;
+}
+
+.box1:hover{
+    color: rgb(10, 31, 137);
+}
+
+.box2:hover{
+    color:rgb(39, 5, 107) ;
+}
+
+.box3:hover{
+    color: rgb(84, 8, 9);
+}
+
+
